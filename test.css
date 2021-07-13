@@ -1,16 +1,14 @@
-/* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
-
-/* common style */
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  background: #f3f1ff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  /* width: 1440px; */
 }
-.container{
-    justify-content: center;
-    display: flex;
+
+header{
+    
+    /* height: 200px; */
 }
 .nav-cont{
     background-color: #2D25A0;
@@ -53,7 +51,10 @@ nav li a{
 
 
 /* nav end */
-
+.container{
+    justify-content: center;
+    display: flex;
+}
 
  /* banner */
 .banner{
