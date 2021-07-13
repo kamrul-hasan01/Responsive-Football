@@ -5,7 +5,7 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    background-color: #ffffff;
     margin: 0;
 }
 .container{
@@ -61,15 +61,18 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     /* align-items: center; */
+  
 }
 .banner-tittle{
     margin-left: 150px;
+    margin-top: 18px;
 }
 .banner h2{
     font-size: 64px;
     font-weight: 700;
     color:  #FFFFFF;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
+    width: 490px;
     
 }
 button{
@@ -84,6 +87,8 @@ button{
 .banner img{
     width: 556.01px;
 height: 438px;
+margin-top: 18px;
+margin-bottom: 45px;
 }
  /* players info */
 
@@ -94,10 +99,12 @@ height: 438px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: flex-start;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    /* margin-top: 70px;
+    margin-bottom: 50px; */
+    margin:    70px 0 50px 0;
     grid-row-gap: 27px;
     grid-column-gap: 30px;
+    margin-bottom: 160px;
    
 
   }
@@ -122,12 +129,16 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
       font-size: 28px;
       font-weight: 700;
       color: #18191F;
-      margin-top: 16px
+      margin-top: 16px;
+      margin-bottom: 10px;
 
   }
   .player p{
       font-size: 16px;
       color: #6C6C6C;
+      margin-bottom: 33px;
+      margin-top: 10px;
+
       
   }
 
@@ -136,6 +147,7 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   .hight-ligts{
       display: grid;
       grid-template-columns: repeat(2,1fr);
+      grid-column-gap: 70px;
   }
   .hili-info{
       margin-left: 160px;
@@ -144,12 +156,15 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
       font-size: 48px;
       font-weight: 700px;
       color: #0A0826;
-      margin-bottom: 0;
+      margin-bottom: 8px;
+      width: 460px;
   }
   .hili-info p{
     color: #6C6C6C;
     font-size: 16px;
     width: 400px;
+    margin-top: 0;
+    margin-bottom: 0px;
 
   }
   
@@ -159,6 +174,12 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
 
   /* footer img */
+
+
+  .footer-cont{
+      margin: 160px 480px 63px 475px;
+      background-color: white;
+  }
   footer{
      margin-top: 40px;
       display: flex;
@@ -172,7 +193,8 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
 
 .fab{
-    
+    margin-top: 0;
+    margin-bottom: 0;
       width:32px;
       height:32px;
       
@@ -195,5 +217,6 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
       font-size: 18px;
       font-weight: 400;
       color:  #000000;
+      margin-bottom: 20px;
       
   }
