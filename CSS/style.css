@@ -75,6 +75,17 @@ nav li a{
     width: 490px;
     
 }
+
+.stage{
+ 
+    overflow: hidden;
+    
+}
+
+.stage:hover img{
+    transform: scale(1.2) rotate(-360deg);
+    transition: transform 2s ease-in-out;
+}
 button{
     padding: 10px 24px; 
     background: #E02C6D; 
@@ -84,66 +95,44 @@ button{
     margin-top: 25px;
     border: none;
 }
-.banner img{
+
+.stage img{
     width: 556.01px;
 height: 438px;
 margin-top: 18px;
 margin-bottom: 45px;
+animation: sliding 10s ease-in-out 0.5s infinite alternate;
+            animation-play-state: running;
+            position: relative;
+            /* width: 50px;
+            height: 50px; */
 }
  /* players info */
 
 
-
- .pLayers {
-    width: 1080px;
+ .players {
+    margin-top: 80px;
+  }
+  .players-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: flex-start;
-    /* margin-top: 70px;
-    margin-bottom: 50px; */
-    margin:    70px 0 50px 0;
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
-    margin-bottom: 160px;
-    /* padding: 15px; */
-   
-
+    column-gap: 30px;
+    row-gap: 27px;
+    padding: 0 25px;
+    margin-bottom: 100px;
   }
-  .player{
-      padding: 18px;
-     
-      /* width: 330px; */
-/* height: 474px; */
-      background: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-/* text-align: center; */
+  .player {
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.157);
   }
   .player img {
-    width: 300px;
-    height: 256px;
-    /* margin: 0 auto; */
-    /* margin-left: 20px; */
-    /* border: 15px solid rgb(255, 255, 255); */
-
+    width: 100%;
   }
-  .player h3{
-      font-size: 28px;
-      font-weight: 700;
-      color: #18191F;
-      margin-top: 16px;
-      margin-bottom: 10px;
-
+  .player h3 {
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
   }
-  .player p{
-      font-size: 16px;
-      color: #6C6C6C;
-      margin-bottom: 33px;
-      margin-top: 10px;
-
-      
-  }
-
-
   /* hightlight section */
   .hight-ligts{
       display: grid;
@@ -227,6 +216,12 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* photo frame  */
+.galary-title{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700px;
+}
 .photo-album-wrap{
     width: 100%;
     display: flex;
@@ -238,6 +233,7 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    justify-content: space-evenly;
 
 }
 
@@ -289,47 +285,45 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   /* footer img */
 
 
-  .footer-cont{
-      margin: 160px 480px 63px 475px;
-      background-color: white;
+  footer {
+      margin-top: 100px;
+    margin-bottom: 80px;
   }
-  footer{
-     margin-top: 40px;
-      display: flex;
-      flex-direction: column;
-      /* justify-content: center; */
-      align-items: center;
+  .footer-wrap {
+    width: 483px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
   }
-  .footer-img img{
-    width: 483.87px;
-    height: 110px;
+  .footer-logo img {
+    width: 100%;
   }
-
-.fab{
-    margin-top: 0;
-    margin-bottom: 0;
-      width:32px;
-      height:32px;
-      
-
-    
-      text-align:center;
-      justify-content: center;
-      text-align: center;
-    
-
-     
-  } 
-.social-account{
-    width: 32px;
-    height: 32px;
-    background-color: #5256598e;
-    border-radius: 16px;
-}
-  footer p{
-      font-size: 18px;
-      font-weight: 400;
-      color:  #000000;
-      margin-bottom: 20px;
-      
+  .social-media i {
+    margin: 7px;
+    background-color: #e7e7e8;
+    color: #969bab;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .social-media i {
+    margin: 7px;
+    background-color: #e7e7e8;
+    color: #969bab;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .social-media i:hover {
+    background-color: #e02c6d;
+    color: white;
+  }
+  .copyright {
+    margin-top: 15px;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+  }
+  .copyright span {
+    color: #104278;
   }
