@@ -20,8 +20,14 @@ button{
   font-weight: 500;
   margin-top: 25px;
   border: none;
+  border-radius: 10px;
 }
+button:hover {
+  border-radius: 0;
+  box-shadow: 0 0 20px #e02c6d;
+  transition: 0.5s;
 
+}
  /* -----------
  header  nav bar
  -------------  */
@@ -238,12 +244,14 @@ nav li a{
 
 .photo-frame {
     width: 200px;
-    height: auto;
+    height: 171px;
     border-radius: 10px;
-    /* border: 2px solid red; */
+   
     position: relative;
     margin: 20px;
     overflow: hidden;
+    box-shadow: 3px 3px #e02c6d, -1em 0 .4em #e02c6d;
+    
 }
 
 .photo img {
