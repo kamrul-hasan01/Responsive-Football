@@ -12,42 +12,45 @@ body{
     justify-content: center;
     display: flex;
 }
+button{
+  padding: 10px 24px; 
+  background: #E02C6D; 
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 25px;
+  border: none;
+}
+
+ /* -----------
+ header  nav bar
+ -------------  */
 .nav-cont{
     background-color: #2D25A0;
-   
     display: flex;
     justify-content: center;
-   
-   
-    
+    height: 120px;
 }
 .nav-bar{
-    
-    display: flex;
-    width: 1100px;
-    background-color: #2D25A0;
-    justify-content: space-between;
-
-    align-items: center;
-    /* margin-top: 42px; */
-    
-
+  display: flex;
+  width: 1100px;
+  background-color: #2D25A0;
+  justify-content: space-between;
+  align-items: center;
 }
 nav  ul{
-    display: flex;
+display: flex;
 }
 nav li{
-    list-style: none;
-    /* margin-right: 20px; */
-    padding: 0 20px;
-
+  list-style: none;
+  padding: 0 20px;
 }
 
-nav li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 500;
+nav li a{  
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
     
 }
 
@@ -61,12 +64,11 @@ nav li a{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(2,1fr);
-    /* align-items: center; */
-  
+   
 }
 .banner-tittle{
     margin-left: 150px;
-    margin-top: 18px;
+    margin-top: 13px;
 }
 .banner h2{
     font-size: 64px;
@@ -87,29 +89,19 @@ nav li a{
     transform: scale(1.2) rotate(-360deg);
     transition: transform 2s ease-in-out;
 }
-button{
-    padding: 10px 24px; 
-    background: #E02C6D; 
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 25px;
-    border: none;
-}
+
  image-g{
   width: 100%;
   /* overflow: hidden; */
 }
 .stage img{
     width: 556.01px;
-height: 438px;
-margin-top: 18px;
-margin-bottom: 45px;
-animation: sliding 10s ease-in-out 0.5s infinite alternate;
-            animation-play-state: running;
-            position: relative;
-            /* width: 50px;
-            height: 50px; */
+  height: 438px;
+  margin-top: 18px;
+  margin-bottom: 45px;
+  animation: sliding 10s ease-in-out 0.5s infinite alternate;
+ 
+     
 }
  /* players info */
 
@@ -127,7 +119,8 @@ animation: sliding 10s ease-in-out 0.5s infinite alternate;
   }
   .player {
     padding: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.157);
+    
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
   .player img {
     width: 100%;
@@ -136,6 +129,8 @@ animation: sliding 10s ease-in-out 0.5s infinite alternate;
     font-size: 28px;
     font-weight: 900;
     color: black;
+    margin-top: 16px;
+    margin-bottom: 10px;
   }
   /* hightlight section */
   .hight-ligts{
@@ -143,17 +138,17 @@ animation: sliding 10s ease-in-out 0.5s infinite alternate;
       grid-template-columns: repeat(2,1fr);
       grid-column-gap: 70px;
   }
-  .hili-info{
+  .hilights-info{
       margin-left: 160px;
   }
-  .hili-info h3{
+  .hilights-info h3{
       font-size: 48px;
       font-weight: 700px;
       color: #0A0826;
       margin-bottom: 8px;
       width: 460px;
   }
-  .hili-info p{
+  .hilights-info p{
     color: #6C6C6C;
     font-size: 16px;
     width: 400px;
@@ -218,7 +213,7 @@ animation: sliding 10s ease-in-out 0.5s infinite alternate;
     font-size: 16px;
     margin-top: 10px; 
 }
-
+/* bonous section part 2  */
 /* photo frame  */
 .galary-title{
   margin-top: 80px;
@@ -229,7 +224,7 @@ animation: sliding 10s ease-in-out 0.5s infinite alternate;
 .photo-album-wrap{
     width: 100%;
     display: flex;
-    /* justify-content: center; */
+    
     align-items: center;
     justify-content: center;
 }
@@ -296,40 +291,47 @@ animation: sliding 10s ease-in-out 0.5s infinite alternate;
     margin-bottom: 80px;
   }
   .footer-wrap {
+    font-size: 18px;
     width: 483px;
     margin: 0 auto;
     text-align: center;
-    font-size: 18px;
+   
   }
   .footer-logo img {
     width: 100%;
+    margin-bottom: 20px;
   }
   .social-media i {
-    margin: 7px;
     background-color: #e7e7e8;
     color: #969bab;
+    margin: 7px;
+    
     padding: 10px;
     border-radius: 50%;
     font-size: 20px;
   }
   .social-media i {
     margin: 7px;
-    background-color: #e7e7e8;
     color: #969bab;
     padding: 10px;
+
     border-radius: 50%;
     font-size: 20px;
+    background-color: #e7e7e8;
+   
   }
   .social-media i:hover {
     background-color: #e02c6d;
     color: white;
   }
   .copyright {
-    margin-top: 15px;
-    font-size: 18px;
     color: black;
     font-weight: 400;
+    margin-top: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    
   }
   .copyright span {
-    color: #104278;
+    color: #e02c6d;
   }
