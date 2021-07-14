@@ -59,6 +59,7 @@ nav li a{
 .banner{
     background-color:#2D25A0;
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(2,1fr);
     /* align-items: center; */
   
@@ -95,7 +96,10 @@ button{
     margin-top: 25px;
     border: none;
 }
-
+ image-g{
+  width: 100%;
+  /* overflow: hidden; */
+}
 .stage img{
     width: 556.01px;
 height: 438px;
