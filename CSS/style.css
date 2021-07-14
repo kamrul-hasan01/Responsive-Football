@@ -307,7 +307,7 @@ nav li a{
   }
   .footer-logo img {
     width: 100%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   .social-media i {
     background-color: #e7e7e8;
@@ -335,7 +335,7 @@ nav li a{
   .copyright {
     color: black;
     font-weight: 400;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-top: 15px;
     font-size: 18px;
     
