@@ -113,7 +113,7 @@ nav li a{
 
 
  .players {
-    margin-top: 80px;
+    margin-top: 100px;
   }
   .players-wrap {
     display: grid;
@@ -122,6 +122,7 @@ nav li a{
     row-gap: 27px;
     padding: 0 25px;
     margin-bottom: 100px;
+    width: 80%;
   }
   .player {
     padding: 15px;
