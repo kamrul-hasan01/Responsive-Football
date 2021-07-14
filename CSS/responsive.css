@@ -43,6 +43,7 @@
   }
   .players-wrap {
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
     .hight-ligts{
         display: grid;
@@ -149,6 +150,7 @@
   }
   .players-wrap {
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
      .hight-ligts{
          display: grid;
